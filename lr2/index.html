@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lb2</title>
 
-    <!--<styl>
+    <!--<style>
         @import url(style.css)
-    </styl>-->
+    </style>-->
 
     <link rel="stylesheet" href="style.css">
 
@@ -31,6 +31,10 @@
             /*Относительное позиционирование*/
             float: right;
         }
+        
+        body {
+            background-color: aquamarine;
+        }
     </style>
 
 </head>
@@ -38,13 +42,13 @@
 <body>
     <div id="form">
         <div class="line">
-            <input type="radio" name="str"><label id="label1">Красный текст</label> <br>
+            <input type="radio" name="str"><label id="label1" style="background-color: red;">Красный текст</label> <br>
         </div>
         <div class="line">
-            <input type="radio" name="str"><label id="label2">Желтый текст</label> <br>
+            <input type="radio" name="str"><label id="label2" style="background-color: rgb(192, 192, 40);">Желтый текст</label> <br>
         </div>
         <div class="line">
-            <input type="radio" name="str"><label id="label3">Зеленый текст</label>
+            <input type="radio" name="str"><label id="label3" style="background-color: green;">Зеленый текст</label>
         </div>
     </div>
 
