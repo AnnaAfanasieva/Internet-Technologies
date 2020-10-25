@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lb2</title>
 
-    <!--<style>
+    <!--<styl>
         @import url(style.css)
-    </style>-->
+    </styl>-->
 
     <link rel="stylesheet" href="style.css">
 
-    <style type="text/css">
-        #line :checked+#label1 {
+    <style>
+        .line :checked+#label1 {
             color: red;
         }
         
-        #line :checked+#label2 {
-            color: yellow;
+        .line :checked+#label2 {
+            color: rgb(192, 192, 40);
         }
         
-        #line :checked+#label3 {
+        .line :checked+#label3 {
             color: green;
         }
         
@@ -37,13 +37,13 @@
 
 <body>
     <div id="form">
-        <div id="line">
+        <div class="line">
             <input type="radio" name="str"><label id="label1">Красный текст</label> <br>
         </div>
-        <div id="line">
+        <div class="line">
             <input type="radio" name="str"><label id="label2">Желтый текст</label> <br>
         </div>
-        <div id="line">
+        <div class="line">
             <input type="radio" name="str"><label id="label3">Зеленый текст</label>
         </div>
     </div>
